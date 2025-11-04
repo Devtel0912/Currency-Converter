@@ -12,6 +12,10 @@ class Converter:
         self.root = tk.Tk()
         self.root.title("Currency Converter")
         self.root.geometry('250x200')
+
+
+        #Currency created once
+        self.c = CurrencyRates()
         
         
         # FROM currency
